@@ -5,8 +5,8 @@ require.config({
     paths: {
         // Core Libraries
         "jquery": "../libs/jquery/dist/jquery",
-        "bootstrap": "../libs/adminlte/bootstrap.min",
-        "adminlte": "../libs/adminlte/adminlte",
+        "bootstrap": "../libs/adminlte/js/bootstrap.min",
+        "adminlte": "../libs/adminlte/js/adminlte",
         "underscore": "../libs/lodash/lodash",
         "backbone": "../libs/backbone/backbone",
         "marionette": "../libs/marionette/lib/core/backbone.marionette",
