@@ -6,7 +6,8 @@ define(['jquery', 'backbone', 'bootstrap', 'adminlte', 'marionette', 'underscore
             regions: {
                 headerRegion: ".main-header",
                 sidebarRegion: ".main-sidebar",
-                mainRegion: ".content-wrapper"
+                mainRegion: ".content-wrapper",
+                footerRegion: ".main-footer"
             }
         });
 

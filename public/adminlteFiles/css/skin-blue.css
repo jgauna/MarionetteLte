@@ -4,6 +4,7 @@
  */
 .skin-blue .main-header .navbar {
   background-color: #3c8dbc;
+  margin-bottom: 0;
 }
 .skin-blue .main-header .navbar .nav > li > a {
   color: #ffffff;
