@@ -1,5 +1,5 @@
-define(['jquery', 'backbone', 'bootstrap', 'adminlte', 'marionette', 'underscore', 'layouts/RootLayoutView'],
-    function($, Backbone, Marionette, bootstrap, adminlte, _, RootLayoutView) {
+define(['jquery', 'backbone', 'bootstrap', 'adminlte', 'highcharts', 'marionette', 'underscore', 'layouts/RootLayoutView'],
+    function($, Backbone, Marionette, bootstrap, adminlte, highcharts, _, RootLayoutView) {
         var App = new Backbone.Marionette.Application();
 
         App.rootLayout = new RootLayoutView({

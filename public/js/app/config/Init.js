@@ -12,6 +12,7 @@ require.config({
         "marionette": "../libs/marionette/lib/core/backbone.marionette",
 
         // Plugins
+        "highcharts": "../libs/highcharts/highcharts",
         "backbone.validateAll": "../libs/Backbone.validateAll/src/javascripts/Backbone.validateAll",
         "text": "../libs/text/text",
         "backbone.wreqr": "../libs/backbone.wreqr/lib/backbone.wreqr",
