@@ -7,6 +7,8 @@ public/build/img
 public/build/*
 public/build/
 public/plugins/
+!public/js/libs/highcharts
+!public/js/libs/adminlte
 public/indexNOTNEED.html
 public/pages
 node_modules
