@@ -3,7 +3,7 @@ XYZ-Company
 
 To see this test you can use this one line ready app:
 
-- npm install gulp bower nodemon -g && nodemon
+- npm install gulp bower nodemon -g && npm install && bower install && nodemon
 - Open http://localhost:8001 
 
 Hope you enjoy my work!
