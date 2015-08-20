@@ -1,33 +1,21 @@
 {
-  "name": "MRB-Lite",
-  "title": "Marionette, Require, and Gulp Lite Boilerplate",
+  "name": "XYZ-Company",
+  "title": "Marionette, Require, Gulp & Highcharts",
   "description": "A Lightweight Marionette.js and Require.js Boilerplate using Gulp.js.",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "homepage": "",
   "author": {
-    "name": "Jason Roeckle"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:jroeckle/Marionette-Require-Boilerplate-Lite.git"
+    "name": "Juan Gauna"
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/jroeckle/Marionette-Require-Boilerplate-Lite/blob/master/LICENSE-MIT"
+      "type": "MIT"
     }
   ],
   "dependencies": {
     "express": "3.x"
   },
   "main": "./server/server",
-  "keywords": [
-    "Marionette.js",
-    "Backbone.js",
-    "Require.js",
-    "Gulp.js",
-    "Marionette and Require Boilerplate Lite"
-  ],
   "devDependencies": {
     "gulp": "^3.6.0",
     "gulp-requirejs": "^0.1.3",

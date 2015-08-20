@@ -1,16 +1,11 @@
 {
-  "name": "MRB-Lite",
-  "version": "0.0.4",
+  "name": "XYZ-Company",
+  "version": "0.0.1",
   "description": "",
-  "keywords": [
-    "requirejs",
-    "boilerplate",
-    "marionettejs"
-  ],
   "authors": [
-    "Jason Roeckle"
+    "Juan Gauna"
   ],
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "public/admin/js/libs",
