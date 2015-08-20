@@ -10,9 +10,11 @@ require.config({
         "underscore": "../libs/lodash/lodash",
         "backbone": "../libs/backbone/backbone",
         "marionette": "../libs/marionette/lib/core/backbone.marionette",
+        "backbone-mongodb": "../libs/backbone-mongodb/backbone-mongodb.amd",
 
         // Plugins
         "highcharts": "../libs/highcharts/highcharts",
+        "highcharts-grouped": "../libs/highcharts/grouped-categories",
         "backbone.validateAll": "../libs/Backbone.validateAll/src/javascripts/Backbone.validateAll",
         "text": "../libs/text/text",
         "backbone.wreqr": "../libs/backbone.wreqr/lib/backbone.wreqr",
@@ -41,13 +43,21 @@ require.config({
             "exports": "Backbone"
         },
         // Backbone.validateAll plugin (https://github.com/gfranko/Backbone.validateAll)
-        "backbone.validateAll": ["backbone"]
+        "backbone.validateAll": ["backbone"],
+        "highcharts": {
+            "deps": ["jquery"],
+            exports: 'highcharts'
+        },
+        "highcharts-grouped": {
+            "deps": ["highcharts"],
+            exports: 'highcharts-grouped'
+        }
     }
 });
 
 // Includes Desktop Specific JavaScript files here (or inside of your Desktop router)
-require(["jquery", "App", "routers/AppRouter", "controllers/Controller"],
-    function($, App, AppRouter, Controller) {
+require(["jquery", "App", "routers/AppRouter", "highcharts", "highcharts-grouped", "controllers/mainController"],
+    function($, App, AppRouter, highcharts, highchartsGrouped, Controller) {
 
         $(function() {
             App.appRouter = new AppRouter({
