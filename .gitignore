@@ -9,6 +9,7 @@ public/build/
 public/plugins/
 !public/js/libs/highcharts
 !public/js/libs/adminlte
+!public/js/libs/backbone-mongodb
 public/indexNOTNEED.html
 public/pages
 node_modules
