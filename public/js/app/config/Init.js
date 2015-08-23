@@ -5,14 +5,14 @@ require.config({
     paths: {
         // Core Libraries
         "jquery": "../libs/jquery/dist/jquery",
-        "bootstrap": "../libs/adminlte/js/bootstrap.min",
-        "adminlte": "../libs/adminlte/js/adminlte",
+        "bootstrap": "../libs/admin-lte/bootstrap/js/bootstrap.min",
+        "adminlte": "../libs/admin-lte/dist/js/app.min",
         "underscore": "../libs/lodash/lodash",
         "backbone": "../libs/backbone/backbone",
         "marionette": "../libs/marionette/lib/core/backbone.marionette",
 
         // Plugins
-        "highcharts": "../libs/highcharts/highcharts",
+        "highcharts": "../libs/highcharts-release/highcharts",
         "backbone.validateAll": "../libs/Backbone.validateAll/src/javascripts/Backbone.validateAll",
         "text": "../libs/text/text",
         "backbone.wreqr": "../libs/backbone.wreqr/lib/backbone.wreqr",
